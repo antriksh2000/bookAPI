@@ -1,11 +1,14 @@
-// Temporary Database
-// Array of objects
-
-// Documents in MongoDB have no structure restrictions.
-// Documents work similar to JSON format in mongoDB.
-// Documents have a key value pair (similar to JSON).
-// No specific schema required before hand line SQL database.
-// SO structuring the data is easier in mongoDB
+//json content for sample data of book
+//  {
+//         "ISBN": "12345ONE",
+//         "title": "Getting started with MERN",
+//         "authors": [1, 2],
+//         "language": "en",
+//         "pubDate": "2021-07-07",
+//         "numOfPage": 225,
+//         "category": ["fiction", "programming", "tech", "web dev"],
+//         "publication": 1
+//     }
 
 let Book = [
     {
@@ -29,6 +32,15 @@ let Book = [
         publication: 1,
     },
 ];
+// Temporary Database
+// Array of objects
+
+// Documents in MongoDB have no structure restrictions.
+// Documents work similar to JSON format in mongoDB.
+// Documents have a key value pair (similar to JSON).
+// No specific schema required before hand line SQL database.
+// SO structuring the data is easier in mongoDB
+
 
 let Author = [
     {
